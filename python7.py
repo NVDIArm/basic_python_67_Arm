@@ -18,11 +18,11 @@ class SpyXFamily:
         self.name = name_f
         self.age = age_f
 
-def __str__(self):
-    return f"{self.name} - {self.age}"
+    def __str__(self):
+        return f"{self.name} - {self.age}"
 
-def sayHi(self, last_name = "Forger"):
-    print (f"Hey bruh what'sup {self.name} {last_name}")
+    def sayHi(self, last_name = "Forger"):
+        print (f"Hey bruh what'sup {self.name} {last_name}")
 
 p1 = SpyXFamily("Anya", 8)
 print(p1.name, p1.age)
